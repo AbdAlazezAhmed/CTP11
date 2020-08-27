@@ -77,7 +77,6 @@ static void activate(GtkApplication *app, gpointer user_data)
   gtk_grid_attach(grid, image, 1, 0, 1, 1);
   gtk_grid_attach(grid, graph1, 0, 1, 1, 1);
   gtk_grid_attach(grid, graph3, 1, 1, 1, 1);
-  gtk_grid_attach(grid, graph2, 2, 0, 2, 2);
 
   GdkRGBA color;
   color.alpha = 1;
