@@ -62,7 +62,7 @@ static void activate(GtkApplication *app, gpointer user_data)
   // connect to the "render" signal
   //  char command[1024];
   //  float longitude = 30,latitude = 30,zoom=12;
-  //  char* resolution = "400x400",*accessToken="حط الاكسس بتاعتك يا خلبوص";
+  //  char* resolution = "400x400",*accessToken="";
   //  snprintf(command,1024,"wget -O snapshot.jpg \"https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/geojson(%%7B%%22type%%22%%3A%%22Point%%22%%2C%%22coordinates%%22%%3A%%5B%f%%2C%f%%5D%%7D)/%f,%f,%f/%s?access_token=%s\" ",longitude,latitude,longitude,latitude,zoom,resolution,accessToken);
   // system(command);
   gtk_widget_set_size_request(graph1, ITEM_SIZE, ITEM_SIZE);
